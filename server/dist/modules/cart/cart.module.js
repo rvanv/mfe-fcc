@@ -17,4 +17,4 @@ CartModule = __decorate([
     })
 ], CartModule);
 exports.CartModule = CartModule;
-//# sourceMappingURL=authorized.module.js.map
+//# sourceMappingURL=cart.module.js.map

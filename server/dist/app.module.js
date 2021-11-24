@@ -10,7 +10,7 @@ exports.AppModule = void 0;
 const common_1 = require("@nestjs/common");
 const serve_static_1 = require("@nestjs/serve-static");
 const path_1 = require("path");
-const authorized_module_1 = require("./modules/authorized/authorized.module");
+const cart_module_1 = require("./modules/cart/cart.module");
 const products_module_1 = require("./modules/products/products.module");
 const app_controller_1 = require("./app.controller");
 const auth_module_1 = require("./auth/auth.module");
@@ -25,7 +25,7 @@ AppModule = __decorate([
             serve_static_1.ServeStaticModule.forRoot({
                 rootPath: (0, path_1.join)(__dirname, '..', 'public'),
             }),
-            authorized_module_1.AuthorizedModule,
+            cart_module_1.CartModule,
             products_module_1.ProductsModule,
             auth_module_1.AuthModule,
         ],
